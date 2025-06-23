@@ -1,2 +1,2 @@
 echo "🔍 Checking branch name"
-npx --no-install validate-branch-name && echo "✅ Branch name is valid"
+npx --no-install validate-branch-name
