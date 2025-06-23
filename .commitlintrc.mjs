@@ -4,7 +4,7 @@ const headerPatternRule = (parsed, _, value) => {
   const regex = new RegExp(value);
   return [
     regex.test(parsed.header),
-    'Commit message must be "PG-{number}: {description}" with at least 3 characters',
+    'Commit message must be "PG-{number}: {at least 3 symbols}" e.g. "PG-123: Fix issue"',
   ];
 };
 

@@ -1,0 +1,5 @@
+
+pattern: '^(?:main|PG-\d+\/[a-z0-9-]{3,})$'
+errorMessage: >-
+  Branch name must be main or PG-{number}/{at least 3 symbols}, e.g.
+  main or PG-123/abc

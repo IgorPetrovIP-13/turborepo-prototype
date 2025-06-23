@@ -8,11 +8,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir .",
-		"check-types": "bash -c tsc --noEmit -p tsconfig.json"
+    "check-types": "bash -c tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
+    "@repo/tailwind-config": "workspace:*",
     "@repo/ui": "workspace:*",
-		"@repo/tailwind-config": "workspace:*",
+    "@sentry/nextjs": "^9.30.0",
     "@tailwindcss/postcss": "^4.1.10",
     "next": "^15.3.0",
     "postcss": "^8.5.3",

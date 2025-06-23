@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🔍 Checking branch name"
+npx --no-install validate-branch-name && echo "✅ Branch name is valid"
