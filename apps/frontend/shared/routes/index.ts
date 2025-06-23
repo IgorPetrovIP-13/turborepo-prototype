@@ -1,3 +1,3 @@
-export const enum Routes {
-  Home = "/",
-}
+export const Routes = {
+  Home:  "/",
+} as const;
