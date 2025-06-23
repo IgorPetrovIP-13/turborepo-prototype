@@ -12,7 +12,7 @@ const nextConfig = {
 const sentryOptions = {
   org: "pear-group-xv",
   project: "turborepo-proto",
-  silent: !process.env.CI,fsd
+  silent: !process.env.CI,
   widenClientFileUpload: true,
   tunnelRoute: "/monitoring",
   disableLogger: true,
